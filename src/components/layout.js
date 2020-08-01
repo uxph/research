@@ -15,6 +15,20 @@ import "../assets/sass/main.scss";
 const Layout = ({ children }) => {
   return (
     <>
+      <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossOrigin="anonymous"
+      />
       <Nav />
       <main>{children}</main>
       <Footer />

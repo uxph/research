@@ -28,102 +28,86 @@ function SEO({ description, lang, meta, title }) {
   const metaDescription = description || site.siteMetadata.description;
 
   return (
-    <>
-      <Helmet
-        htmlAttributes={{
-          lang,
-        }}
-        title={title}
-        titleTemplate={`%s | ${site.siteMetadata.title}`}
-        meta={[
-          {
-            charset: `UTF-8`,
-          },
-          {
-            name: `viewport`,
-            content: `width=device-width, initial-scale=1.0`,
-          },
-          {
-            name: `fb:page_id`,
-            content: `314394185432326`,
-          },
-          {
-            name: `description`,
-            content: metaDescription,
-          },
-          {
-            property: `og:title`,
-            content: title,
-          },
-          {
-            property: `og:site_name`,
-            content: site.siteMetadata.title,
-          },
-          {
-            property: `og:url`,
-            content: `https://uxph.org/`,
-          },
-          {
-            property: `og:image`,
-            content: `https://uxph.org/assets/images/og-cover.png`,
-          },
-          {
-            property: `og:image:secure_url`,
-            content: `https://uxph.org/assets/images/og-cover.png`,
-          },
-          {
-            property: `og:description`,
-            content: metaDescription,
-          },
-          {
-            property: `og:type`,
-            content: `website`,
-          },
-          {
-            name: `twitter:card`,
-            content: `https://uxph.org/assets/images/og-cover.png`,
-          },
-          {
-            name: `twitter:creator`,
-            content: site.siteMetadata.author,
-          },
-          {
-            name: `twitter:site`,
-            content: site.siteMetadata.author,
-          },
-          {
-            name: `twitter:title`,
-            content: title,
-          },
-          {
-            name: `twitter:description`,
-            content: metaDescription,
-          },
-          {
-            developer: `Mike Jaren Yap`,
-            site: `https://mjarenyap.github.io`,
-          },
-          {
-            developer: `Tyrone Justin Sta. Maria`,
-            site: `https://tyronegithub.github.io`,
-          },
-        ].concat(meta)}
-      />
-      <link
-        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
-        rel="stylesheet"
-      />
-      <link
-        href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap"
-        rel="stylesheet"
-      />
-      <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossOrigin="anonymous"
-      />
-    </>
+    <Helmet
+      htmlAttributes={{
+        lang,
+      }}
+      title={title}
+      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      meta={[
+        {
+          charset: `UTF-8`,
+        },
+        {
+          name: `viewport`,
+          content: `width=device-width, initial-scale=1.0`,
+        },
+        {
+          name: `fb:page_id`,
+          content: `314394185432326`,
+        },
+        {
+          name: `description`,
+          content: metaDescription,
+        },
+        {
+          property: `og:title`,
+          content: title,
+        },
+        {
+          property: `og:site_name`,
+          content: site.siteMetadata.title,
+        },
+        {
+          property: `og:url`,
+          content: `https://uxph.org/`,
+        },
+        {
+          property: `og:image`,
+          content: `https://uxph.org/assets/images/og-cover.png`,
+        },
+        {
+          property: `og:image:secure_url`,
+          content: `https://uxph.org/assets/images/og-cover.png`,
+        },
+        {
+          property: `og:description`,
+          content: metaDescription,
+        },
+        {
+          property: `og:type`,
+          content: `website`,
+        },
+        {
+          name: `twitter:card`,
+          content: `https://uxph.org/assets/images/og-cover.png`,
+        },
+        {
+          name: `twitter:creator`,
+          content: site.siteMetadata.author,
+        },
+        {
+          name: `twitter:site`,
+          content: site.siteMetadata.author,
+        },
+        {
+          name: `twitter:title`,
+          content: title,
+        },
+        {
+          name: `twitter:description`,
+          content: metaDescription,
+        },
+        {
+          developer: `Mike Jaren Yap`,
+          site: `https://mjarenyap.github.io`,
+        },
+        {
+          developer: `Tyrone Justin Sta. Maria`,
+          site: `https://tyronegithub.github.io`,
+        },
+      ].concat(meta)}
+    />
   );
 }
 

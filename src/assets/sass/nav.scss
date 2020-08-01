@@ -21,6 +21,7 @@
   display: inline-block;
   font-weight: 400;
   cursor: pointer;
+  margin: 0;
 }
 
 #main-nav ul li span {
@@ -48,6 +49,7 @@
 #nav-logo {
   width: var(--value-128);
   transition: ease all 0.3s;
+  margin: 0;
 }
 
 #nav-logo.show {
