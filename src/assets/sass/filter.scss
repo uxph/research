@@ -1,0 +1,21 @@
+#filter {
+  max-width: 257px;
+}
+#filter #search-bar {
+  border: 1px #d6d6d6;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+#filter #search-bar::placeholder {
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  color: #c4c4c4;
+}
+#filter .options h5 {
+  font-style: "roboto", sans-serif;
+  font-size: var(--value-16);
+}
+
+#filter .options p {
+  font-size: var(--value-16);
+}
