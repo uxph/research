@@ -19,3 +19,8 @@
 #filter .options p {
   font-size: var(--value-16);
 }
+
+.box {
+  display: flex;
+  align-items: baseline;
+}
