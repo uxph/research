@@ -1,0 +1,27 @@
+{
+  "about": {
+    "description": "The objective of the UXPH Research team is to leverage existing industry-academe connection in gaining better understanding of the UX landscape in the PH Context. This can be a potential income-generating activity and a training ground for those who want to engage in research."
+  },
+  "objectives": [
+    {
+      "number": 1,
+      "objective": "contribute to the body of knowledge towards the better understanding of the UX and HCI landscape in the Philippines"
+    },
+    {
+      "number": 2,
+      "objective": "work its partners in the collection of data, design of experiments that are ethical and scientifically-sound"
+    },
+    {
+      "number": 3,
+      "objective": "share and make its findings accessible to the PH context towards a more data-driven design-mature UX Strategy landscape"
+    },
+    {
+      "number": 4,
+      "objective": "provide an avenue for young and budding researchers to take part in research activities"
+    },
+    {
+      "number": 5,
+      "objective": "actively find, secure and procure funding, equipment and other resources that helps in the research process"
+    }
+  ]
+}
