@@ -2,12 +2,16 @@ import React from "react";
 
 const ProjectLayout = ({ title, description, pageLink }) => {
   return (
-    <div className="clearfix" style={{ width: `575px` }}>
+    <div className="clearfix">
       <div className="float-left margin-right-24">
-        <img
-          src="/images/logos/uxph_icon.png"
-          style={{ width: `160px`, height: `auto` }}
-        />
+        <div
+          style={{
+            backgroundImage: `url(/images/logos/uxph_icon.png)`,
+            backgroundSize: `cover`,
+            width: `160px`,
+            height: `160px`,
+          }}
+        ></div>
       </div>
       <div>
         <h3 className="font-weight-bold">{title}</h3>
