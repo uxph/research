@@ -7,7 +7,7 @@ const AboutUX = () => {
   });
   return (
     <>
-      <header className="padding-y-96">
+      <header className="padding-top-96">
         <div class="wrapper">
           <h2 className="font-weight-bold">About UXPH Research</h2>
           <p className="margin-y-24 ">{about.description}</p>
