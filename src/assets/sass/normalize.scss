@@ -89,10 +89,12 @@ p {
   margin: 0;
   font-size: 1.125rem;
   font-family: "roboto", sans-serif;
+  font-size: var(--value-16);
 }
 
 li {
   font-size: var(--value-16);
+  font-family: "roboto", sans-serif;
 }
 
 a {
