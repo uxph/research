@@ -1,0 +1,15 @@
+.members {
+  // width: 850px;
+  // background-color: red;
+}
+.member {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  // margin-left: auto;
+}
+
+.member .socials a {
+  letter-spacing: var(--value-8);
+}

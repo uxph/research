@@ -89,10 +89,12 @@ p {
   margin: 0;
   font-size: 1.125rem;
   font-family: "roboto", sans-serif;
+  font-size: var(--value-16);
 }
 
 li {
   font-size: var(--value-16);
+  font-family: "roboto", sans-serif;
 }
 
 a {
@@ -254,4 +256,5 @@ div#back-to-top i {
 .auto-hidden {
   opacity: 0;
   transition: ease all 0.3s;
+  display: none;
 }
