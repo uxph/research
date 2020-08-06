@@ -21,11 +21,16 @@
 
 .tags-wrapper {
   overflow: hidden;
-  // background: red;
   width: 360px;
 }
 
 .tags-wrapper .tags-content {
   display: inline-block;
   // float: left;
+}
+.projects-wrapper {
+  overflow: hidden;
+}
+.projects-wrapper .projects-content {
+  display: inline-block;
 }
