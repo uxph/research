@@ -13,7 +13,6 @@ const OtherProjects = ({ info }) => {
       <div className="wrapper">
         <h2 className="font-weight-bold">Other Projects</h2>
         <div className="projects-wrapper">{projects}</div>
-        {/* <ProjectLayout /> */}
       </div>
     </section>
   );
