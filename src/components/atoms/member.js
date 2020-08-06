@@ -3,19 +3,6 @@ import Modal from "./modal";
 const Member = ({ name, position, bio, socials }) => {
   const [hide, setHidden] = useState("hidden");
   const [overlay, setOverlay] = useState("");
-  // const social = socials.map((soc) => {
-  //   // console.log(soc);
-  //   return (
-  //     <div
-  //       style={{ color: `gray` }}
-  //       className="font-size-24 socials text-center"
-  //     >
-  //       {soc}
-  //     </div>
-  //   );
-  // return soc;
-  // });
-  // console.log({ socials });
   return (
     <>
       <Modal

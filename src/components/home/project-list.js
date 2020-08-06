@@ -7,6 +7,7 @@ const ProjectList = () => {
     return (
       <div className="padding-y-48">
         <ProjectLayout
+          id={project.id}
           title={project.title}
           description={project.description}
           pageLink={project.pageLink}

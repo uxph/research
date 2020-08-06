@@ -1,0 +1,36 @@
+.tag {
+  display: inline-block;
+  border-radius: 25px;
+  // padding-top: var(--value-8);
+  // padding-bottom: var(--value-8);
+  // width: 95px;
+  // height: 30px;
+  font-size: var(--value-12);
+  font-family: "roboto", sans-serif;
+}
+
+.tag-ongoing {
+  background-color: #fff0bd;
+  color: #d7aa0f;
+}
+
+.tag-keyword {
+  background-color: #f1f3f4;
+  color: #3e4345;
+}
+
+.tags-wrapper {
+  overflow: hidden;
+  width: 360px;
+}
+
+.tags-wrapper .tags-content {
+  display: inline-block;
+  // float: left;
+}
+.projects-wrapper {
+  overflow: hidden;
+}
+.projects-wrapper .projects-content {
+  display: inline-block;
+}

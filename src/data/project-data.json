@@ -1,18 +1,78 @@
 [
   {
+    "id": 1,
     "title": "Project S.O.U.P.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum aliquam sollicitudin eget nunc...",
+    "fullTitle": "State of UX in The Philippines Report",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum aliquam sollicitudin eget nunc, pharetra. Faucibus volutpat tristique risus aliquam dui. In dictum ac sed mollis etiam turpis. Tempor nisl integer ultricies id ultrices. Nunc quam etiam in leo nunc ultrices etiam sit. Enim nulla fermentum at adipiscing in aliquet sed urna. Mi mauris congue sed aenean eleifend mi at dignissim. Facilisis enim arcu tristique donec sit.",
     "abstract": "",
-    "page-link": "/",
-    "download-link": "/",
-    "survey-link": "/"
+    "pageLink": "/project",
+    "downloadLink": "/",
+    "surveyLink": "/",
+    "keywords": [
+      "Research",
+      "User Experience",
+      "Report",
+      "UXPH Conference",
+      "Science"
+    ],
+    "date": "December 25, 2020",
+    "finished": false
   },
   {
+    "id": 2,
     "title": "Project sssS.O.U.P.",
-    "description": " met, consectetur adipiscing elit. Elementum aliquam sollicitudin eget nunc...",
+    "fullTitle": "State of UX in The Philippines Report",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum aliquam sollicitudin eget nunc, pharetra. Faucibus volutpat tristique risus aliquam dui. In dictum ac sed mollis etiam turpis. Tempor nisl integer ultricies id ultrices. Nunc quam etiam in leo nunc ultrices etiam sit. Enim nulla fermentum at adipiscing in aliquet sed urna. Mi mauris congue sed aenean eleifend mi at dignissim. Facilisis enim arcu tristique donec sit.",
     "abstract": "",
-    "page-link": "/",
-    "download-link": "/",
-    "survey-link": "/"
+    "pageLink": "/project",
+    "downloadLink": "/",
+    "surveyLink": "/",
+    "keywords": [
+      "Research",
+      "User Experience",
+      "Report",
+      "UXPH Conference",
+      "Science"
+    ],
+    "date": "December 25, 2020",
+    "finished": true
+  },
+  {
+    "id": 3,
+    "title": "Project sssS.O.U.P.",
+    "fullTitle": "State of UX in The Philippines Report",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum aliquam sollicitudin eget nunc, pharetra. Faucibus volutpat tristique risus aliquam dui. In dictum ac sed mollis etiam turpis. Tempor nisl integer ultricies id ultrices. Nunc quam etiam in leo nunc ultrices etiam sit. Enim nulla fermentum at adipiscing in aliquet sed urna. Mi mauris congue sed aenean eleifend mi at dignissim. Facilisis enim arcu tristique donec sit.",
+    "abstract": "",
+    "pageLink": "/project",
+    "downloadLink": "/",
+    "surveyLink": "/",
+    "keywords": [
+      "Research",
+      "User Experience",
+      "Report",
+      "UXPH Conference",
+      "Science"
+    ],
+    "date": "December 25, 2020",
+    "finished": true
+  },
+  {
+    "id": 4,
+    "title": "Project sssS.O.U.P.",
+    "fullTitle": "State of UX in The Philippines Report",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum aliquam sollicitudin eget nunc, pharetra. Faucibus volutpat tristique risus aliquam dui. In dictum ac sed mollis etiam turpis. Tempor nisl integer ultricies id ultrices. Nunc quam etiam in leo nunc ultrices etiam sit. Enim nulla fermentum at adipiscing in aliquet sed urna. Mi mauris congue sed aenean eleifend mi at dignissim. Facilisis enim arcu tristique donec sit.",
+    "abstract": "",
+    "pageLink": "/project",
+    "downloadLink": "/",
+    "surveyLink": "/",
+    "keywords": [
+      "Research",
+      "User Experience",
+      "Report",
+      "UXPH Conference",
+      "Science"
+    ],
+    "date": "December 25, 2020",
+    "finished": true
   }
 ]

@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "gatsby";
 
-const ProjectLayout = ({ title, description, pageLink }) => {
+const ProjectLayout = ({ id, title, description, pageLink }) => {
+  // console.log({ pageLink });
   return (
     <div className="clearfix">
       <div className="float-left margin-right-24">
@@ -18,9 +20,9 @@ const ProjectLayout = ({ title, description, pageLink }) => {
         <p className="margin-y-12" style={{ fontSize: `16px` }}>
           {description}
         </p>
-        <a class="button" href={pageLink}>
+        <Link class="button" to={`${pageLink}?id=${id}`}>
           Read More
-        </a>
+        </Link>
       </div>
     </div>
   );
