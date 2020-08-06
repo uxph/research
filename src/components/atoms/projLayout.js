@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "gatsby";
 const ProjectLayout = ({ title, id }) => {
   return (
     <div>
@@ -15,9 +15,9 @@ const ProjectLayout = ({ title, id }) => {
         className="border-radius-8"
       ></div>
       <h5 className="font-weight-bold padding-y-8">{title}</h5>
-      <a href={`/project?id=${id}`} className="button">
+      <Link to={`/project?id=${id}`} className="button">
         Read More
-      </a>
+      </Link>
     </div>
   );
 };

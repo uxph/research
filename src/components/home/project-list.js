@@ -17,14 +17,12 @@ const ProjectList = () => {
   });
 
   return (
-    <>
-      <section className="padding-y-96">
-        <div className="wrapper box">
-          <Filter />
-          <div className="margin-left-64">{projects}</div>
-        </div>
-      </section>
-    </>
+    <section className="padding-y-96">
+      <div className="wrapper box">
+        <Filter />
+        <div className="margin-left-64">{projects}</div>
+      </div>
+    </section>
   );
 };
 export default ProjectList;
