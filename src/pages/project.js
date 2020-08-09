@@ -15,11 +15,11 @@ const Project = () => {
   const params = useQuery();
 
   const projectInfo = data.filter((project) => {
-    return project.id == params.get("id");
+    return project.id === params.get("id");
   });
 
   const otherProjects = data.filter((project) => {
-    return project.id != params.get("id");
+    return project.id !== params.get("id");
   });
 
   return (

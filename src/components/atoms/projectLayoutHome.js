@@ -18,12 +18,17 @@ const ProjectLayout = ({ id, title, description, pageLink }) => {
       <div>
         <h3 className="font-weight-bold">{title}</h3>
         <p
-          className="margin-y-12"
-          style={{ overflow: `hidden`, height: `100px`, fontSize: `16px` }}
+          className="margin-y-12 margin-bottom-24"
+          style={{
+            overflow: `hidden`,
+            height: `100px`,
+            fontSize: `16px`,
+            lineHeight: `1.5rem`,
+          }}
         >
           {description}
         </p>
-        <Link class="button" to={`${pageLink}?id=${id}`}>
+        <Link className="button" to={`${pageLink}?id=${id}`}>
           Read More
         </Link>
       </div>

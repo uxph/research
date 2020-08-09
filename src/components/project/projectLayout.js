@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 // import projectList from "../../data/project-data.json";
 
 const ProjectLayout = (props) => {

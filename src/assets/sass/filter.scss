@@ -1,5 +1,7 @@
 #filter {
   max-width: 257px;
+  position: sticky;
+  top: 120px;
 }
 #filter #search-bar {
   border: 1px #d6d6d6;

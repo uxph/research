@@ -1,16 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 
-const Modal = (props) => {
-  const {
-    hide,
-    setHidden,
-    overlay,
-    setOverlay,
-    name,
-    position,
-    bio,
-    socials,
-  } = props;
+const Modal = ({
+  hide,
+  setHidden,
+  overlay,
+  setOverlay,
+  name,
+  position,
+  bio,
+}) => {
   return (
     <>
       <div
@@ -20,7 +18,15 @@ const Modal = (props) => {
           hide === "hidden" ? setHidden("") : setHidden("hidden");
           document.body.classList.remove("stiff");
         }}
+        onKeyDown={() => {
+          overlay === "overlay" ? setOverlay("") : setOverlay("overlay");
+          hide === "hidden" ? setHidden("") : setHidden("hidden");
+          document.body.classList.remove("stiff");
+        }}
         className={` ${hide === "hidden" ? "hidden" : ""}`}
+        role="button"
+        aria-label={`${name}`}
+        tabIndex="0"
       ></div>
       <div
         id="modal"
@@ -48,13 +54,13 @@ const Modal = (props) => {
               className="font-size-24 socials"
             >
               <a href="/about">
-                <i class="fab fa-facebook-square"></i>
+                <i className="fab fa-facebook-square"></i>
               </a>
               <a href="/about">
-                <i class="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin"></i>
               </a>
               <a href="/about">
-                <i class="fab fa-twitter"></i>
+                <i className="fab fa-twitter"></i>
               </a>
             </div>
           </div>

@@ -22,6 +22,14 @@ const Member = ({ name, position, bio, socials }) => {
           overlay === "overlay" ? setOverlay("") : setOverlay("overlay");
           document.body.classList.add("stiff");
         }}
+        onKeyDown={() => {
+          hide === "hidden" ? setHidden("") : setHidden("hidden");
+          overlay === "overlay" ? setOverlay("") : setOverlay("overlay");
+          document.body.classList.add("stiff");
+        }}
+        role="button"
+        tabIndex="0"
+        aria-label={`${name}`}
         className="member padding-top-24 margin-right-64"
       >
         <div className="padding-y-16">
@@ -49,13 +57,13 @@ const Member = ({ name, position, bio, socials }) => {
           >
             {/* {social} */}
             <a href="/about">
-              <i class="fab fa-facebook-square"></i>
+              <i className="fab fa-facebook-square"></i>
             </a>{" "}
             <a href="/about">
-              <i class="fab fa-linkedin"></i>
+              <i className="fab fa-linkedin"></i>
             </a>{" "}
             <a href="/about">
-              <i class="fab fa-twitter"></i>
+              <i className="fab fa-twitter"></i>
             </a>
           </div>
         </div>

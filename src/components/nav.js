@@ -3,7 +3,7 @@ import React from "react";
 const Nav = () => {
   return (
     <>
-      <nav id="main-nav" className="bg-white">
+      <nav id="main-nav" className="bg-white shadow-sm">
         <div className="wrapper d-flex justify-content-between align-items-center">
           <img
             src={"/images/icons/menu_options.svg"}

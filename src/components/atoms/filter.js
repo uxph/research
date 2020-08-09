@@ -7,12 +7,13 @@ const Filter = () => {
         type="text"
         placeholder="Search research projects.."
         id="search-bar"
-        className="padding-x-16 padding-y-8 border-radius-4"
+        className="padding-x-16 padding-y-8 border-radius-4 margin-bottom-24"
       />
       <div className="padding-y-24 options">
         <h5
+          className="padding-bottom-16"
           style={{
-            borderBottom: `2px solid #c4c4c4`,
+            borderBottom: `thin solid #c4c4c4`,
           }}
         >
           Categories
@@ -23,8 +24,9 @@ const Filter = () => {
       </div>
       <div className="padding-bottom-24 options">
         <h5
+          className="padding-bottom-16"
           style={{
-            borderBottom: `2px solid #c4c4c4`,
+            borderBottom: `thin solid #c4c4c4`,
           }}
         >
           Year

@@ -3,9 +3,9 @@ import ProjectLayout from "../atoms/projectLayoutHome";
 import Filter from "../atoms/filter";
 import projectList from "../../data/project-data.json";
 const ProjectList = () => {
-  const projects = projectList.map((project) => {
+  const projects = projectList.map((project, index) => {
     return (
-      <div className="padding-y-48">
+      <div className="padding-y-48" key={index}>
         <ProjectLayout
           id={project.id}
           title={project.title}

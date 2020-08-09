@@ -2,9 +2,15 @@ import React from "react";
 import Member from "../atoms/member";
 import memberList from "../../data/members.json";
 const Members = () => {
-  const members = memberList.map(({ name, position, bio, socials }) => {
+  const members = memberList.map(({ name, position, bio, socials }, index) => {
     return (
-      <Member name={name} position={position} bio={bio} socials={socials} />
+      <Member
+        name={name}
+        position={position}
+        bio={bio}
+        socials={socials}
+        key={index}
+      />
     );
   });
   return (
