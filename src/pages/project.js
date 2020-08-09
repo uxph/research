@@ -14,12 +14,13 @@ const Project = () => {
 
   const params = useQuery();
 
+  // I used == here because the params get a string not a number.
   const projectInfo = data.filter((project) => {
-    return project.id === params.get("id");
+    return project.id == params.get("id");
   });
 
   const otherProjects = data.filter((project) => {
-    return project.id !== params.get("id");
+    return project.id != params.get("id");
   });
 
   return (
