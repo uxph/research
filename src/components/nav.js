@@ -13,7 +13,11 @@ const Nav = () => {
           />
 
           <a href="/" className="d-flex align-items-center">
-            <img src={"/images/logos/uxph_logo.svg"} id="nav-logo" alt="UXPH" />
+            <img
+              src={"/images/logos/UXPHRP_icon.png"}
+              id="nav-logo"
+              alt="UXPH"
+            />
           </a>
           <ul>
             <li className="active">
