@@ -16,7 +16,8 @@
       "Science"
     ],
     "date": "December 25, 2020",
-    "finished": false
+    "finished": false,
+    "featured": true
   },
   {
     "id": 2,
@@ -35,7 +36,8 @@
       "Science"
     ],
     "date": "December 25, 2020",
-    "finished": true
+    "finished": true,
+    "featured": false
   },
   {
     "id": 3,
@@ -54,7 +56,8 @@
       "Science"
     ],
     "date": "December 25, 2020",
-    "finished": true
+    "finished": true,
+    "featured": false
   },
   {
     "id": 4,
@@ -73,6 +76,7 @@
       "Science"
     ],
     "date": "December 25, 2020",
-    "finished": true
+    "finished": true,
+    "featured": false
   }
 ]
