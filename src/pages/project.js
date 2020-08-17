@@ -14,9 +14,9 @@ const Project = () => {
 
   const params = useQuery();
 
-  const projectInfo = data.filter((project) => {
-    return project.id.toString() === params.get("id");
-  });
+  // const projectInfo = data.filter((project) => {
+  //   return project.id.toString() === params.get("id");
+  // });
 
   const otherProjects = data.filter((project) => {
     return project.id.toString() !== params.get("id");
