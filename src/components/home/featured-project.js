@@ -4,11 +4,12 @@ import React from "react";
 const FeaturedProject = (props) => {
   const { info } = props;
   let paper = {};
-  const keywords = info.keywords.map((keyword) => {
+  const keywords = info.keywords.map((keyword, index) => {
     return (
       <div
         className="tag tag-keyword tags-content text-center 
-        padding-y-4 padding-x-12 margin-top-8  margin-right-4"
+        padding-y-4 padding-x-12 margin-top-8 margin-right-4"
+        key={index}
       >
         {keyword}
       </div>
@@ -35,7 +36,12 @@ const FeaturedProject = (props) => {
   return (
     <div className="wrapper padding-bottom-96 padding-top-32 fp">
       <div className="featured-project">
-        <h1 className="font-weight-bold ">{info.title}</h1>
+        <img
+          src="/images/featured_project.svg"
+          className="featured-project-thumbnail margin-bottom-48"
+          alt="Project S.O.U.P"
+        />
+        <h1 className="font-weight-bold">{info.title}</h1>
         <span
           style={{
             overflow: `hidden`,
@@ -48,30 +54,27 @@ const FeaturedProject = (props) => {
           >
             Status:
           </h4>
-          <div
-            className="tag tag-ongoing text-center 
-       padding-y-4 padding-x-12 margin-top-12 d-inline-block"
-          >
+          <div className="tag tag-ongoing text-center padding-y-4 padding-x-12 margin-top-12 d-inline-block">
             Ongoing
           </div>
         </span>
         <div className="padding-top-32">
           <div>
-            <h4 className="font-weight-bold padding-bottom-24">
+            <h4 className="font-weight-bold padding-bottom-48">
               {info.fullTitle}
             </h4>
             <h5 className="padding-bottom-8" style={{ color: `#C4C4C4` }}>
               {paper.status}
             </h5>
-            <p className="width-512">{paper.text}</p>
+            <p>{paper.text}</p>
             <h5 className="font-weight-bold padding-y-24">
               Target Date: {info.date}
             </h5>
             <a className="button" href={paper.link}>
               {paper.linkStatus}
             </a>
-            <div className="padding-top-16">
-              <h4 className="font-weight-bold margin-right-12 ">Tags:</h4>
+            <div className="margin-top-48">
+              <h4 className="font-weight-bold margin-bottom-8">Tags:</h4>
               {keywords}
             </div>
           </div>

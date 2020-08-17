@@ -20,9 +20,14 @@ const Nav = () => {
             />
           </a>
           <ul>
-            <li className="active">
-              <a href="/">
+            <li>
+              <a href="https://uxph.org">
                 <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <span className="active">Projects</span>
               </a>
             </li>
             <li>

@@ -14,14 +14,11 @@ const Hero = () => {
         <div className="wrapper">
           <img
             src={"/images/logos/uxph_rp_white.png"}
-            style={{ width: `235px`, margin: `0 auto`, display: `block` }}
+            style={{ width: `235px`, margin: `0`, display: `block` }}
+            alt="UXPH Research Logo"
           />
         </div>
       </header>
-      <img
-        src="/images/featured_project.svg"
-        className="featured-project-thumbnail d-flex space-between"
-      />
     </>
   );
 };
