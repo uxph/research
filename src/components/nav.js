@@ -14,20 +14,18 @@ const Nav = () => {
 
           <a href="/" className="d-flex align-items-center">
             <img
-              src={"/images/logos/UXPHRP_icon.png"}
+              src={"/images/logos/uxph_rp_light.svg"}
               id="nav-logo"
               alt="UXPH"
+              style={{
+                width: `250px`,
+              }}
             />
           </a>
           <ul>
             <li>
-              <a href="https://uxph.org">
-                <span>Home</span>
-              </a>
-            </li>
-            <li>
               <a href="/">
-                <span className="active">Projects</span>
+                <span>Home</span>
               </a>
             </li>
             <li>
