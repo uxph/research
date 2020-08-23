@@ -2,17 +2,20 @@ import React from "react";
 import Member from "../atoms/member";
 import memberList from "../../data/members.json";
 const Members = () => {
-  const members = memberList.map(({ name, position, bio, socials }, index) => {
-    return (
-      <Member
-        name={name}
-        position={position}
-        bio={bio}
-        socials={socials}
-        key={index}
-      />
-    );
-  });
+  const members = memberList.map(
+    ({ name, position, bio, socials, image }, index) => {
+      return (
+        <Member
+          name={name}
+          position={position}
+          bio={bio}
+          socials={socials}
+          image={image}
+          key={index}
+        />
+      );
+    }
+  );
   return (
     <>
       <section

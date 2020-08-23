@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "./modal";
-const Member = ({ name, position, bio, socials }) => {
+const Member = ({ name, position, bio, socials, image }) => {
   const [hide, setHidden] = useState("hidden");
   const [overlay, setOverlay] = useState("");
   return (
@@ -14,6 +14,7 @@ const Member = ({ name, position, bio, socials }) => {
         position={position}
         bio={bio}
         socials={socials}
+        image={image}
       />
       <div
         style={{ width: `160px`, cursor: `pointer ` }}
@@ -35,7 +36,7 @@ const Member = ({ name, position, bio, socials }) => {
         <div className="padding-y-16">
           <div
             style={{
-              backgroundImage: `url(/images/logos/uxph_icon.png)`,
+              backgroundImage: `url(${image})`,
               borderRadius: `100%`,
               backgroundSize: `cover`,
               width: `160px`,
@@ -45,12 +46,12 @@ const Member = ({ name, position, bio, socials }) => {
 
           <h4 className="font-weight-bold padding-y-8 text-center">{name}</h4>
 
-          <h5
+          {/* <h5
             className="text-center padding-bottom-8"
             style={{ color: `#777777` }}
           >
             {position}
-          </h5>
+          </h5> */}
           <div
             style={{ color: `gray` }}
             className="font-size-24 socials text-center"
@@ -58,10 +59,10 @@ const Member = ({ name, position, bio, socials }) => {
             {/* {social} */}
             <a href="/about">
               <i className="fab fa-facebook-square"></i>
-            </a>{" "}
+            </a>
             <a href="/about">
               <i className="fab fa-linkedin"></i>
-            </a>{" "}
+            </a>
             <a href="/about">
               <i className="fab fa-twitter"></i>
             </a>

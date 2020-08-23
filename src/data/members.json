@@ -4,10 +4,33 @@
     "position": "UX Researcher",
     "bio": "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines",
     "socials": [
-      "<a href=\"/about\"> <i class=\"fab fa-facebook-square\"></i></a>",
-      "<a href=\"/about\"><i class=\"fab fa-linkedin\"></i></a>",
-      "<a href=\"/about\"><i class=\"fab fa-twitter\"></i></a>"
-    ]
+      {
+        "name": "Twitter",
+        "link": "https://www.twitter.com/jrdndj",
+        "icon": "fab fa-twitter"
+      },
+      {
+        "name": "Google Scholar",
+        "link": "https://scholar.google.com.ph/citations?user=kqH_ERUAAAAJ&hl=en",
+        "icon": "ai ai-google-scholar"
+      },
+      {
+        "name": "Orcid",
+        "link": "https://orcid.org/0000-0001-9341-6088",
+        "icon": "fab fa-orcid"
+      },
+      {
+        "name": "Scopus",
+        "link": "https://www.scopus.com/authid/detail.uri?authorId=57203125622",
+        "icon": "fab fa-orcid"
+      },
+      {
+        "name": "Github",
+        "link": "http://github.com/jrdndj",
+        "icon": "fab fa-github"
+      }
+    ],
+    "image": "images/team/jordan.jpeg"
   },
   {
     "name": "Din San Diego",
@@ -17,7 +40,8 @@
       "<a href=\"/about\"> <i class=\"fab fa-facebook-square\"></i></a>",
       "<a href=\"/about\"><i class=\"fab fa-linkedin\"></i></a>",
       "<a href=\"/about\"><i class=\"fab fa-twitter\"></i></a>"
-    ]
+    ],
+    "image": "images/team/claudine.png"
   },
   {
     "name": "Janyl Tamayo",
@@ -27,7 +51,8 @@
       "<a href=\"/about\"> <i class=\"fab fa-facebook-square\"></i></a>",
       "<a href=\"/about\"><i class=\"fab fa-linkedin\"></i></a>",
       "<a href=\"/about\"><i class=\"fab fa-twitter\"></i></a>"
-    ]
+    ],
+    "image": "images/team/janyl.jpg"
   },
   {
     "name": "Charlotte Mae Efren",
@@ -37,6 +62,18 @@
       "<a href=\"/about\"> <i class=\"fab fa-facebook-square\"></i></a>",
       "<a href=\"/about\"><i class=\"fab fa-linkedin\"></i></a>",
       "<a href=\"/about\"><i class=\"fab fa-twitter\"></i></a>"
-    ]
+    ],
+    "image": "images/team/cha.jpg"
+  },
+  {
+    "name": "Jen Teves",
+    "position": "UX Researcher",
+    "bio": "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines",
+    "socials": [
+      "<a href=\"/about\"> <i class=\"fab fa-facebook-square\"></i></a>",
+      "<a href=\"/about\"><i class=\"fab fa-linkedin\"></i></a>",
+      "<a href=\"/about\"><i class=\"fab fa-twitter\"></i></a>"
+    ],
+    "image": "images/team/jen.jpg"
   }
 ]

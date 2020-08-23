@@ -8,6 +8,7 @@ const Modal = ({
   name,
   position,
   bio,
+  image,
 }) => {
   return (
     <>
@@ -36,7 +37,7 @@ const Modal = ({
         <div id="modal-content">
           <div
             style={{
-              backgroundImage: `url(/images/logos/uxph_icon.png)`,
+              backgroundImage: `url(${image})`,
               borderRadius: `100%`,
               backgroundSize: `cover`,
               width: `160px`,
