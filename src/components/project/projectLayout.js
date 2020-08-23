@@ -7,7 +7,7 @@ const ProjectLayout = (props) => {
   const keywords = info.keywords.map((keyword) => {
     return (
       <div
-        className="tag tag-keyword tags-content text-center 
+        className="tag tag-keyword tags-content text-center
         padding-y-4 padding-x-12 margin-top-8  margin-right-4"
       >
         {keyword}

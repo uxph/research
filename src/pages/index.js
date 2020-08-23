@@ -3,7 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Hero from "../components/home/hero";
-import FeaturedProject from "../components/home/featured-project";
+import FeaturedProject from "../components/home/featuredProject";
 import data from "../data/project-data.json";
 
 const IndexPage = () => {
