@@ -29,6 +29,11 @@ const Layout = ({ children }) => {
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossOrigin="anonymous"
       />
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+      />
+
       <Nav />
       <main>{children}</main>
       <Footer />
