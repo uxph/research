@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Project S.O.U.P.",
+    "slug": "project-soup-2020",
+    "fullTitle": "State of UX in The Philippines Report",
+    "description": "The UX landscape in the Philippines is getting broader each year. The earliest UX'ers in the country began their march almost a decade ago. Since then, technological innovations and cultural paradigms both globally and locally, have called for a deeper understanding of the UX practice. In recent years, we have seen reports that attempt to understand its current state and imagine future trends. These reports however, have been mostly done on a global or regional context. In this research, we attempt to take a closer look into the State of UX in the Philippines, and how its culturally-diverse environment nurture a specific breed of designers, researchers and leaders. We will look at data from the past decade in see trends that have shaped this industry. Further, we intend to use and share this data to various stakeholders towards crafting the local UX roadmap for the next decade. ",
+    "abstract": "",
+    "pageLink": "/project",
+    "downloadLink": "/",
+    "surveyLink": "/",
+    "keywords": [
+      "Research",
+      "User Experience",
+      "Report",
+      "UXPH Conference",
+      "Science"
+    ],
+    "date": "December 25, 2020",
+    "finished": false,
+    "featured": true
+  }
+]

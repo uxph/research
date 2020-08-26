@@ -3,7 +3,7 @@ import React from "react";
 const Nav = () => {
   return (
     <>
-      <nav id="main-nav" className="bg-white">
+      <nav id="main-nav" className="bg-white shadow-sm">
         <div className="wrapper d-flex justify-content-between align-items-center">
           <img
             src={"/images/icons/menu_options.svg"}
@@ -13,10 +13,17 @@ const Nav = () => {
           />
 
           <a href="/" className="d-flex align-items-center">
-            <img src={"/images/logos/uxph_logo.svg"} id="nav-logo" alt="UXPH" />
+            <img
+              src={"/images/logos/uxph_rp_light.svg"}
+              id="nav-logo"
+              alt="UXPH"
+              style={{
+                width: `250px`,
+              }}
+            />
           </a>
           <ul>
-            <li className="active">
+            <li>
               <a href="/">
                 <span>Home</span>
               </a>
