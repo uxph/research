@@ -34,3 +34,9 @@
 .projects-wrapper .projects-content {
   display: inline-block;
 }
+
+.featured-image {
+  object-fit: cover;
+  border-radius: var(--value-8);
+  box-shadow: 0px 2px 11px #dedede;
+}

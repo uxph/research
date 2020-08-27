@@ -1,15 +1,18 @@
-.members {
-  // width: 850px;
-  // background-color: red;
-}
 .member {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  // margin-left: auto;
+  border-radius: var(--value-8);
+  transition: ease all 0.3s;
+  cursor: pointer;
+
+  .socials {
+    transition: ease all 0.3s;
+  }
+
+  .socials:hover {
+    color: var(--main-blue);
+  }
 }
 
-.member .socials a {
-  letter-spacing: var(--value-8);
+.member:hover {
+  background-color: white;
+  box-shadow: 0px 2px 11px #dedede;
 }

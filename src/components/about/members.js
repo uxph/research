@@ -16,6 +16,7 @@ const Members = () => {
       );
     }
   );
+
   return (
     <>
       <section
@@ -23,11 +24,10 @@ const Members = () => {
         style={{ background: `#FAFAFC` }}
       >
         <div className="wrapper">
-          <h2 className="text-center font-weight-bold">Team Members</h2>
-          <div
-            className="members d-flex flex-wrap justify-content-center 
-          margin-left-64"
-          >
+          <h2 className="text-center font-weight-bold margin-bottom-32">
+            Team Members
+          </h2>
+          <div className="members d-flex flex-wrap justify-content-center">
             {members}
           </div>
         </div>

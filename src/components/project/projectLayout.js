@@ -63,9 +63,9 @@ const ProjectLayout = (props) => {
         </div>
 
         <div>
-          <h4 className="font-weight-bold padding-bottom-24">
+          <h2 className="font-weight-bold padding-bottom-24">
             {info.fullTitle}
-          </h4>
+          </h2>
           <h5 className="padding-bottom-8" style={{ color: `#C4C4C4` }}>
             {paper.status}
           </h5>

@@ -45,7 +45,7 @@ html {
 }
 
 body {
-  margin-top: 4.25rem;
+  margin-top: 68px;
 }
 
 body.stiff {
@@ -79,6 +79,11 @@ h2 {
   font-weight: 600;
 }
 
+h3 {
+  font-size: 1.17rem;
+  font-weight: 600;
+}
+
 .subheading {
   font-family: "montserrat", sans-serif;
   font-weight: lighter;
@@ -104,6 +109,11 @@ a {
 
 a.link:hover {
   text-decoration: underline;
+}
+
+small,
+em {
+  font-family: "Roboto", sans-serif;
 }
 
 hr {
@@ -229,6 +239,10 @@ div.wrapper {
 
 .red {
   color: var(--main-red);
+}
+
+.gray {
+  color: var(--main-gray);
 }
 
 .bg-blue {

@@ -12,7 +12,7 @@ import Footer from "./footer";
 import "./layout.css";
 import "../assets/sass/main.scss";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, activeUrl }) => {
   return (
     <>
       <link
@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
       />
 
-      <Nav />
+      <Nav activeUrl={activeUrl} />
       <main>{children}</main>
       <Footer />
     </>

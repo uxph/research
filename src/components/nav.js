@@ -1,6 +1,6 @@
 import React from "react";
 
-const Nav = () => {
+const Nav = ({ activeUrl }) => {
   return (
     <>
       <nav id="main-nav" className="bg-white shadow-sm">
@@ -17,20 +17,22 @@ const Nav = () => {
               src={"/images/logos/uxph_rp_light.svg"}
               id="nav-logo"
               alt="UXPH"
-              style={{
-                width: `250px`,
-              }}
+              className="width-192"
             />
           </a>
           <ul>
             <li>
               <a href="/">
-                <span>Home</span>
+                <span className={activeUrl === "/" ? "active" : null}>
+                  Home
+                </span>
               </a>
             </li>
             <li>
               <a href="/about">
-                <span>About</span>
+                <span className={activeUrl === "/about" ? "active" : null}>
+                  About
+                </span>
               </a>
             </li>
           </ul>

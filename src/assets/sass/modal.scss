@@ -10,12 +10,15 @@
 }
 #modal {
   z-index: 1000;
-  position: absolute;
+  width: 100%;
+  height: 100%;
   // margin: auto !important;
   background-color: white;
   max-height: var(--value-640);
   overflow-y: scroll;
 }
 #modal #modal-content {
+  width: 192px;
+  position: fixed;
   display: flex;
 }

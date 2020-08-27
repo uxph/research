@@ -6,18 +6,17 @@ import { Link } from "gatsby";
 const FeaturedProject = ({ info }) => {
   // const { info } = props;
   let paper = {};
-  console.log(info);
-  const keywords = info.keywords.map((keyword, index) => {
-    return (
-      <div
-        className="tag tag-keyword tags-content text-center 
-        padding-y-4 padding-x-12 margin-top-8 margin-right-4"
-        key={index}
-      >
-        {keyword}
-      </div>
-    );
-  });
+  // const keywords = info.keywords.map((keyword, index) => {
+  //   return (
+  //     <div
+  //       className="tag tag-keyword tags-content text-center
+  //       padding-y-4 padding-x-12 margin-top-8 margin-right-4"
+  //       key={index}
+  //     >
+  //       {keyword}
+  //     </div>
+  //   );
+  // });
   const paperStatus = () => {
     if (info.finished === true) {
       paper = {
@@ -44,9 +43,7 @@ const FeaturedProject = ({ info }) => {
             className="text-white float-left"
             // style={{ backgroundColor: `red` }}
           >
-            <h1 style={{ width: `445px`, fontSize: `42px` }}>
-              State of UX in the Philippines
-            </h1>
+            <h1 style={{ width: `445px` }}>State of UX in the Philippines</h1>
           </div>
           <div className="float-left center-line"></div>
           <div className="float-left short-info text-white">
