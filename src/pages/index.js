@@ -32,13 +32,14 @@ const IndexPage = () => {
           backgroundPosition: `center`,
           backgroundSize: `cover`,
         }}
+        id="homepage-header"
       >
         <div className="wrapper">
-          <div className="d-flex justify-content-between">
-            <div className="margin-right-32 min-width-256">
+          <div className="d-flex justify-content-between" id="featured-project">
+            <div className="min-width-256 margin-right-32">
               <img
                 src={projectInfo.squareImg}
-                className="width-256 height-256 featured-image d-block"
+                className="width-256 height-256 d-block featured-image"
                 alt={projectInfo.title}
                 style={{
                   position: "sticky",
@@ -69,7 +70,7 @@ const IndexPage = () => {
                 About this paper
               </h3>
               <p
-                className="margin-bottom-32"
+                className="margin-bottom-32 description"
                 style={{
                   fontSize: `0.875rem`,
                 }}

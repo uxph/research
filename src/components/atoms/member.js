@@ -30,7 +30,10 @@ const Member = ({ name, position, socials, image }) => {
       />
       <h3 className="font-weight-bold text-center">{name}</h3>
       <p className="text-center blue">{position}</p>
-      <div className="d-flex justify-content-center">{socmed}</div>
+      <div className="d-flex justify-content-center margin-bottom-16">
+        {socmed}
+      </div>
+      <button className="d-block mx-auto outline">View profile</button>
     </div>
   );
 };

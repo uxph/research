@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Nav = ({ activeUrl }) => {
+  const [showNav, setShowNav] = useState(false);
   return (
     <>
       <nav id="main-nav" className="bg-white shadow-sm">
@@ -10,6 +11,7 @@ const Nav = ({ activeUrl }) => {
             id="menu-bar"
             width="30"
             alt="Menu Options"
+            onClick={() => setShowNav(true)}
           />
 
           <a href="/" className="d-flex align-items-center">
@@ -39,12 +41,13 @@ const Nav = ({ activeUrl }) => {
         </div>
       </nav>
 
-      <nav id="mobile-nav">
+      <nav id="mobile-nav" className={showNav ? `show` : null}>
         <img
-          src={"images/icons/close.svg"}
+          src={"/images/icons/close.svg"}
           id="menu-close"
           width="30"
           alt="Close"
+          onClick={() => setShowNav(false)}
         />
         <br />
         <br />
@@ -53,44 +56,8 @@ const Nav = ({ activeUrl }) => {
           <a href="/">
             <li>Home</li>
           </a>
-          <li>
-            About Us
-            <div className="subnav rounded-bottom margin-top-12">
-              <a href="/about">
-                <p className="text-light padding-x-16 padding-y-8">
-                  About UXPH
-                </p>
-              </a>
-              <a href="/organizing-members">
-                <p className="text-light padding-x-16 padding-y-8 rounded-bottom">
-                  Organizing Members
-                </p>
-              </a>
-            </div>
-          </li>
-          <a href="/events">
-            <li>Events</li>
-          </a>
-          <li>
-            Get Involved
-            <div className="subnav rounded-bottom margin-top-12">
-              <a href="/sponsorships">
-                <p className="text-light padding-x-16 padding-y-8">
-                  Be a partner
-                </p>
-              </a>
-              <a href="/volunteers">
-                <p className="text-light padding-x-16 padding-y-8 rounded-bottom">
-                  Be a volunteer
-                </p>
-              </a>
-            </div>
-          </li>
-          <a href="/blog">
-            <li>Blog</li>
-          </a>
-          <a href="/faq">
-            <li>FAQ</li>
+          <a href="/about">
+            <li>About</li>
           </a>
         </ul>
       </nav>
